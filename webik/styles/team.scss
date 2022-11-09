@@ -1,0 +1,158 @@
+@import "variables";
+
+.team {
+  p {
+    text-align: center;
+  }
+
+  .card-image {
+    width: 250px;
+    height: 360px;
+
+  }
+}
+
+.team-main-section {
+  margin-bottom: 400px;
+  .underline-anim {
+    text-decoration: none;
+    color: $secondary-color;
+    display: inline-block;
+    //border-bottom: $secondary-color solid 1px;
+  }
+
+  .underline-anim::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: $secondary-color;
+    transition: width .3s;
+  }
+
+  .underline-anim:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+
+  .team-container {
+    .team-member-image {
+      width: 350px;
+      height: 500px;
+
+    }
+
+    p {
+      width: 40vw;
+      text-align: justify;
+    }
+  }
+}
+.img-team-text1-small{
+  height: 50px;
+}
+
+.divize {
+  p {
+    text-align: center;
+  }
+
+  .card-image {
+    width: 230px;
+    height: 360px;
+
+  }
+
+  .btn-visit {
+    background-color: $primary-color;
+    border: $secondary-color solid 0.8px;
+    color: $secondary-color;
+    font-size: 13px;
+    transition: color 0.5s ease-out;
+    height: 35px;
+    width: 250px;
+  }
+
+  .btn-visit {
+    transition: background-color 0.5s ease-out;
+  }
+
+  .btn-visit:hover {
+    background: $secondary-color;
+    a{
+      color: $primary-color;
+    }
+
+  }
+
+  @keyframes btn-visit-animation {
+    0% {
+      background-color: $primary-color
+    }
+    100% {
+      background-color: $secondary-color
+    }
+  }
+}
+.social {
+  display: inline-block;
+}
+.arrow-link-container {
+  .link-arrow{
+    .icon-team-arrow {
+      display: inline-block;
+      transition: 0.1s ease-in;
+      margin-right: 5px;
+    }
+  }
+}
+.arrow-link-container:hover {
+  .link-arrow {
+    .icon-team-arrow {
+      transform: translateX(40%);
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .team-container {
+    font-size: 2vh;
+    .human-container {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .team-member-image {
+        width: 90vw;
+        height: auto;
+      }
+      p{
+        width: 80vw;
+      }
+    }
+    .img-team-text1{
+      height: 5vh;
+    }
+    .human-desc{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 15px;
+      div{
+        margin-top: 10px;
+        width: 100%;
+        .div-bot {
+          margin-bottom: 30px;
+          a{
+            .icon-team-arrow{
+              height: 1.4vh;
+              width: 4vh;
+            }
+          }
+        }
+      }
+    }
+  }
+.img-team-text1-small{
+  height: 4vh;
+}
+}

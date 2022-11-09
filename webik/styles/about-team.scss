@@ -1,0 +1,23 @@
+@import "variables";
+.about-team {
+  text-align: justify;
+  color: $secondary-color;
+  margin: 50px auto 10px;
+  width: 50%;
+
+}
+.about-team-section {
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+@media(max-width: 992px) {
+  .about-team {
+    text-align: justify;
+    color: $secondary-color;
+    width: 80%;
+    margin: 40px auto 20px;
+
+  }
+}

@@ -1,0 +1,30 @@
+@import "variables";
+
+.footer-image {
+  width: 100vw;
+  height: 75vh;
+  // background: url("../dist/bf4d5660173d9779f43c.jpg") no-repeat center center fixed;
+  background: url("../assets/Homepage/images/img 2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+footer {
+  border-bottom: $secondary-color solid 2px;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    span {
+      display: block;
+    }
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}

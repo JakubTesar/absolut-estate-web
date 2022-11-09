@@ -1,0 +1,111 @@
+@import "variables";
+$nav-color: #171717;
+
+.link {
+  color: $text-color;
+  text-decoration: none;
+  //font-size: 20px;
+}
+
+.link:hover {
+  color: $text-color;
+  border-bottom: 1px solid $text-color;
+}
+
+.nav-item {
+  margin: 50px;
+}
+
+.nav-item-button {
+  //font-size: 20px;
+}
+.logo{
+
+}
+.nav-img-logo{
+
+  width: 150px;
+}
+
+.img-h1-text1{
+  width: 300px;
+}
+.img-h1-text1-container{
+  height: 50%;
+}
+
+.img-h1-text2{
+  height: 15vh;
+}
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(30, 30, 30, 0);
+}
+
+.close-img{
+  height: 4vh;
+}
+.modal-nav-main{
+  background-color: rgba(0, 0, 0, 0.50);
+}
+.img-h1-container{
+  height: 50%;
+}
+
+
+
+@media(max-width: 992px) {
+  .link {
+    //font-size: 20px;
+  }
+  .img-h1-container{
+    height: 100%;
+  }
+  .img-h1-text1{
+    width: 40vw;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: center;
+  }
+  nav{
+    background-color: $nav-color;
+    div{
+      .nav-item{
+        margin: 20px;
+        div{
+          img{
+            height: 3vh;
+          }
+        }
+      }
+    }
+  }
+  #scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 99;
+  }
+  .img-h1-text1-port{
+    width: 500px;
+  }
+  .img-h1-text1-container{
+    height: 100%;
+  }
+  .nav-item{
+    margin-top: -20px;
+  }
+  .nav-item-btn{
+    margin: 20px 20px 50px 20px;
+  }
+  .close-img{
+    height: 3vh;
+  }
+  .nav-img-logo{
+    width: 15vw;
+  }
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Trenda';
+  src: url('../assets/Fonts/Trenda-Semibold.woff2') format('woff2'),
+      url('../assets/Fonts/Trenda-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trenda';
+  src: url('../assets/Fonts/Trenda-Regular.woff2') format('woff2'),
+      url('../assets/Fonts/Trenda-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$primary-color: black;
+$secondary-color: #ffffff;
+$text-color: white;

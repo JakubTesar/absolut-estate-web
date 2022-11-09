@@ -1,0 +1,29 @@
+@import "variables";
+// portfolio
+.port-main-section {
+  margin: 3rem 3rem 600px 3rem;
+
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+  .port-container {
+
+    .port-card-image {
+      width: 550px;
+      height: 250px;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .port-main-section {
+    .port-container {
+      .port-card-image {
+       height: 20vh;
+        width: 80vw;
+      }
+    }
+  }
+}

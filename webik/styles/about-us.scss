@@ -1,0 +1,13 @@
+@import "variables";
+//o nas
+.about-us-section {
+  .about-us {
+    margin-bottom: 600px;
+
+  }
+}
+@media(max-width: 992px) {
+  .about-us{
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,296 @@
+@import "~bootstrap";
+@import "nav.scss";
+@import "variables";
+@import "about-team";
+@import "portfolio";
+@import "about-us";
+@import "team";
+@import "modal";
+@import "footer";
+
+
+*{
+  font-family: "Trenda", Courier, monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: $secondary-color;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.text-main {
+  color: $text-color;
+}
+
+.header-image {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/Homepage/images/iStock-1334685439.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.header-image-onas {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/O nas/Img/img.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card-border {
+  .card-image {
+    width: 250px;
+    height: 360px;
+    background-size: cover;
+  }
+
+  .card-image-1 {
+    background-image: url("../assets/fotky/jiri kurka.png");
+  }
+
+  .card-image-2 {
+    background-image: url("../assets/fotky/dominika devoty.png");
+  }
+
+  .card-image-3 {
+    background-image: url("../assets/fotky/sergei kristofovic.png");
+  }
+
+  .card-image-4 {
+    background-image: url("../assets/fotky/vaclav ruzicka.png");
+  }
+
+  .card-border-btn {
+    width: 70%;
+    color: $secondary-color;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.4s ease-out;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .card-border-btn:hover {
+    background-color: #1e1e1e;
+  }
+}
+
+.card-border:hover .card-image {
+  opacity: 0.4;
+}
+
+
+@keyframes bg {
+  0% {
+    background-size: 0 1px,
+    1px 0,
+    0 1px,
+    1px 0;
+  }
+  25% {
+    background-size: 100% 1px,
+    1px 0,
+    0 1px,
+    1px 0;
+  }
+  50% {
+    background-size: 100% 1px,
+    1px 100%,
+    0 1px,
+    1px 0;
+  }
+  75% {
+    background-size: 100% 1px,
+    1px 100%,
+    100% 1px,
+    1px 0;
+  }
+  100% {
+    background-size: 100% 1px,
+    1px 100%,
+    100% 1px,
+    1px 100%;
+  }
+}
+
+.border-div {
+
+  button {
+    display: none;
+  }
+
+}
+
+.border-div:hover {
+  button {
+    display: block;
+  }
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+  linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+  linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+  linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size: 100% 1px,
+  1px 100%,
+  100% 1px,
+  1px 100%;
+  background-position: 0 0,
+  100% 0,
+  100% 100%,
+  0 100%;
+  animation: bg 1s;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-arrow {
+  width: 13px;
+  height: 14px;
+}
+
+.icon-team-arrow {
+  width: 35px;
+  height: 15px;
+}
+
+.img-team-text1 {
+  height: 50px;
+}
+
+.img-h1-text2 {
+
+}
+
+.link-none:hover {
+  color: $secondary-color;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0) !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+}
+
+.diviz-img1 {
+  height: 100px;
+  width: 200px;
+}
+
+.diviz-img2 {
+  height: 60px;
+  width: 250px;
+}
+
+.img-team-text1-2 {
+  height: 3.2vh;
+
+}
+
+.desc {
+  font-size: 18px;
+}
+
+.team-img-h2 {
+  margin-top: -50px;
+  height: 50px;
+}
+
+.img-naseDivize-h2 {
+  height: 50px;
+}
+
+.divize {
+  margin-bottom: 240px;
+  margin-top: 220px;
+}
+
+.header-image-team {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/fotky/team foto.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.footer-main{
+  margin: 40px;
+
+}
+.div-mail{
+  margin-right: 50px;
+}
+@media(max-width: 992px) {
+  .divize {
+    margin-top: 100px;
+    div {
+      .divize-container {
+        display: none;
+      }
+    }
+  }
+  .icon-arrow {
+    height: 2vh;
+    width: 2vh;
+  }
+  .card-border {
+    .card-image {
+
+    }
+  }
+  .img-team-text1-2 {
+    height: 4vh;
+  }
+  .team-img-h2 {
+    height: 5vh;
+  }
+  .header-image-team {
+    object-fit: cover;
+    //background: url("../assets/team foto mobile.png") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-naseDivize-h2 {
+    width: 60vw;
+  }
+  .diviz-img1 {
+    width: 50vw;
+    height: 23vw;
+    margin-bottom: 10px;
+  }
+  .diviz-img2 {
+    width: 60vw;
+    height: 12vw;
+  }
+  .divize .btn-visit {
+    margin-bottom: 100px;
+    width: 80vw;
+    height: 35px;
+   font-family: "Trenda", Courier, monospace;
+
+  }
+
+  .footer-main{
+    margin: 15px;
+    font-size: 10px;
+  }
+  .div-mail{
+    margin-right: 20px;
+  }
+}
+
+@media(max-width: 576px) {
+  .card-border {
+    .card-image {
+      height: 70vh;
+      width: 80vw;
+      background-size: cover;
+      z-index: -1;
+    }
+  }
+}
