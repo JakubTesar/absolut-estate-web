@@ -1,0 +1,17 @@
+{
+    "name": "tessi/webik",
+    "autoload": {
+        "psr-4": {
+            "Tessi\\Webik\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jakub Tesař",
+            "email": "tessi@post.cz"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

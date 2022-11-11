@@ -11,15 +11,16 @@
 </head>
 
 <body>
-    <!--Portfoli nav -->
-    <!--kontaktujte nás footer -->
-    <header>
-        <div class="header-image">
+<!--Portfoli nav -->
+<!--kontaktujte nás footer -->
+<header>
+    <div class="fixed">
+        <div class="header-image wrapper-header" >
             <nav class="navbar navbar-expand-lg text-main d-flex me-auto justify-content-end" id="scroll">
                 <div class="w-100 d-flex justify-content-end">
                     <button class="navbar-toggler text-main nav-item nav-item-button justify-content-end "
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-                        data-bs-toggle="modal" data-bs-target="#nav-collapse">
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                            data-bs-toggle="modal" data-bs-target="#nav-collapse">
                         <div class="w-100 d-flex justify-content-end">
                             <img src="/assets/drop%20down%20menu%20icon.png">
                         </div>
@@ -38,7 +39,7 @@
                             </li>
                             <li class="nav-item d-flex justify-content-center">
                                 <a class="link" id="addStudentButtonMain" data-bs-toggle="modal"
-                                    data-bs-target="#addStudentModal" href="#">KONTAKT</a>
+                                   data-bs-target="#addStudentModal" href="#">KONTAKT</a>
                             </li>
                         </ul>
                     </div>
@@ -48,297 +49,301 @@
                 <img class="img-h1-text1" src="/assets/Homepage/Loga/Absolut%20Estate%20logo.png">
             </div>
         </div>
-
-    </header>
-    <div class="w-100 modal modal-nav-main fade" id="nav-collapse" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog m-0">
-            <div class="modal-cont bg-transparent flex-column d-flex">
-                <button
+    </div>
+</header>
+<div class="w-100 modal modal-nav-main fade" id="nav-collapse" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog m-0">
+        <div class="modal-cont bg-transparent flex-column d-flex">
+            <button
                     class="navbar-toggler text-main nav-item-btn nav-item-button navbar-dark border-0 justify-content-end"
                     type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                     data-bs-toggle="modal" data-bs-target="#nav-collapse">
-                    <div class="w-100 d-flex justify-content-end">
-                        <img class="close-img" src="/assets/X.png">
-                    </div>
-                </button>
-                <ul class="navbar-nav m-auto ">
-                    <li class="nav-item d-flex justify-content-center">
-                        <a class="link" href="onas.html">O NÁS</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center">
-                        <a class="link" href="team.html">TEAM</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center">
-                        <a class="link" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center">
-                        <a class="link" data-bs-toggle="modal" data-bs-target="#addStudentModal" href="#">KONTAKT</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="w-100 d-flex justify-content-end">
+                    <img class="close-img" src="/assets/X.png">
+                </div>
+            </button>
+            <ul class="navbar-nav m-auto ">
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="link" href="onas.html">O NÁS</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="link" href="team.html">TEAM</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="link" href="portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="link" data-bs-toggle="modal" data-bs-target="#addStudentModal" href="#">KONTAKT</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="w-100 h-100 modal fade" id="addStudentModal" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog m-0">
-            <div class="modal-cont bg-transparent">
-                <div class="left-side m-5 d-flex justify-content-center">
-                    <div class="m-5 d-flex flex-column">
-                        <div class="d-flex justify-content-center flex-column cc">
-                            <div class="d-flex justify-content-end pb-5 me-5 w-100">
-                                <div class="d-flex d-block d-lg-none justify-content-end pb-5 me-5">
-                                    <img type="button" data-bs-dismiss="modal" aria-label="Close" class="contact-icon"
-                                        src="/assets/Kontakt/Icons/X.png">
-                                </div>
-                            </div>
-                            <img class="kontaktni-udaje-img" src="/assets/Kontakt/Text/Kontaktni%20udaje.png">
-                            <h5 class="my-2">Absolut Estate s.r.o</h5>
-                            <div class="d-flex align-items-center my-2">
-                                <img class="contact-icon-1 " src="/assets/Kontakt/Icons/telephone.png">
-                                <div class="d-flex flex-column">
-                                    <div>TELEFON</div>
-                                    <div>+420 606 517 518</div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center my-2">
-                                <img class="contact-icon-2 " src="/assets/Kontakt/Icons/envelope.png">
-                                <div class="d-flex flex-column">
-                                    <div>EMAIL</div>
-                                    <a class="link-none" href="mailto:info@absolut-estate.cz">INFO@ABSOLUT-ESTATE.CZ</a>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center my-2">
-                                <img class="contact-icon-map" src="/assets/Kontakt/Icons/map.png">
-                                <div class="d-flex flex-column">
-                                    <div>ADRESA</div>
-                                    <a class="adres" target="_blank"
-                                        href="https://www.google.com/maps/place/Komo%C5%99ansk%C3%A1+326%2F63,+143+00+Praha+12-Mod%C5%99any/@49.9925705,14.4105784,17z/data=!3m1!4b1!4m6!3m5!1s0x470b912b51e53429:0xa0c55c7ba242423e!8m2!3d49.9925705!4d14.4105784!16s%2Fg%2F11bw3y581h">
-                                        Komořanská 326/63,
-                                        <span>Modřany, Praha 4, 143 00</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-lg-center justify-content-start">
-                                <!-- Section: Social media -->
-                                <section class="my-5 d-flex">
-                                    <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
-                                        href="https://www.facebook.com/profile.php?id=100064038278252" role="button"><i
-                                            class="fab fa-facebook-f"></i></a>
-
-
-                                    <!-- Instagram -->
-                                    <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
-                                        href="https://www.instagram.com/absolutestate/" role="button">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <!-- Facebook -->
-
-                                    <!-- Linkedin -->
-                                    <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
-                                        href="https://www.linkedin.com/company/absolutestate/" role="button"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </section>
+</div>
+<div class="w-100 h-100 modal fade" id="addStudentModal" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog h-100 m-0">
+        <div class="modal-cont bg-transparent">
+            <div class="left-side m-5 d-flex justify-content-center">
+                <div class="m-5 d-flex flex-column">
+                    <div class="d-flex justify-content-center mt-5 flex-column cc">
+                        <div class="mt-1">
+                        <img class="kontaktni-udaje-img" src="/assets/Kontakt/Text/Kontaktni%20udaje.png">
+                        <h5 class="my-2">Absolut Estate s.r.o</h5>
+                        <div class="d-flex align-items-center my-2">
+                            <img class="contact-icon-1 " src="/assets/Kontakt/Icons/telephone.png">
+                            <div class="d-flex flex-column">
+                                <div>TELEFON</div>
+                                <div>+420 606 517 518</div>
                             </div>
                         </div>
+                        <div class="d-flex align-items-center my-2">
+                            <img class="contact-icon-2 " src="/assets/Kontakt/Icons/envelope.png">
+                            <div class="d-flex flex-column">
+                                <div>EMAIL</div>
+                                <a class="link-none" href="mailto:info@absolut-estate.cz">INFO@ABSOLUT-ESTATE.CZ</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center my-2">
+                            <img class="contact-icon-map" src="/assets/Kontakt/Icons/map.png">
+                            <div class="d-flex flex-column">
+                                <div>ADRESA</div>
+                                <a class="adres" target="_blank"
+                                   href="https://www.google.com/maps/place/Komo%C5%99ansk%C3%A1+326%2F63,+143+00+Praha+12-Mod%C5%99any/@49.9925705,14.4105784,17z/data=!3m1!4b1!4m6!3m5!1s0x470b912b51e53429:0xa0c55c7ba242423e!8m2!3d49.9925705!4d14.4105784!16s%2Fg%2F11bw3y581h">
+                                    Komořanská 326/63,
+                                    <span>Modřany, Praha 4, 143 00</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-lg-center justify-content-start">
+                            <!-- Section: Social media -->
+                            <section class="my-5 d-flex">
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
+                                   href="https://www.facebook.com/profile.php?id=100064038278252" role="button"><i
+                                        class="fab fa-facebook-f"></i></a>
+
+
+                                <!-- Instagram -->
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
+                                   href="https://www.instagram.com/absolutestate/" role="button">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <!-- Facebook -->
+
+                                <!-- Linkedin -->
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle mx-3"
+                                   href="https://www.linkedin.com/company/absolutestate/" role="button"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </section>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                <div class="right-side m-5  w-50">
-                    <div class="d-flex justify-content-end pb-5 me-5">
-                        <img type="button" data-bs-dismiss="modal" aria-label="Close" class="contact-icon"
-                            src="/assets/Kontakt/Icons/X.png">
-                    </div>
-                    <img class="napiste-nam-img" src="/assets/Kontakt/Text/Napiste%20nam.png">
-                    <form>
-                        <label class="mt-3" for="name">Jméno</label>
-                        <input type="text" class="border-bottom bg-transparent text-main " id="name" name="name">
-                        <label class="mt-3" for="email">Email</label>
-                        <input type="text" class="border-bottom bg-transparent text-main " id="email" name="email">
-                        <label class="mt-3" for="telefon">Telefon</label>
-                        <input type="text" class="border-bottom bg-transparent text-main " id="telefon" name="telefon">
-                        <label for="zpráva" class="mt-3">Zpráva</label>
-                        <textarea type="text" class="border bg-transparent text-main my-3" id="zpráva"
-                            name="zpráva"></textarea>
-                    </form>
+            </div>
+            <div class="right-side m-5  w-50">
+                <div class="d-flex justify-content-end pb-5 me-5">
+                    <a href="#" class="link-none">
+                    <img data-bs-dismiss="modal" aria-label="Close" class="contact-icon"
+                         src="/assets/Kontakt/Icons/X.png"></a>
+                </div>
+                <img class="napiste-nam-img" src="/assets/Kontakt/Text/Napiste%20nam.png">
+                <form action="send-mail.php" method="post">
+                    <label class="mt-3" for="name">Jméno</label>
+                    <input type="text" class="border-bottom bg-transparent text-main " id="name" name="name">
+
+                    <label class="mt-3" for="email">Email</label>
+                    <input type="text" class="border-bottom bg-transparent text-main " id="email" name="email">
+
+                    <label class="mt-3" for="telefon">Telefon</label>
+                    <input type="text" class="border-bottom bg-transparent text-main " id="telefon" name="telefon">
+
+                    <label for="message" class="mt-3">Zpráva</label>
+                    <textarea type="text" class="border bg-transparent text-main my-3" id="message"
+                              name="zpráva"></textarea>
+
                     <button class="modal-btn my-2 border bg-transparent text-main" id="addStudentButtonModal">ODESLAT
                     </button>
-                </div>
+                </form>
+
             </div>
         </div>
     </div>
+</div>
 
 
-    <section class="about-team-section d-flex justify-content-center flex-column m-5">
-        <a href="#team" class="d-flex justify-content-center m-4">
-            <img class="icon-arrow" src="/assets/Homepage/Elements/sipky.png">
-        </a>
-        <p class="about-team d-flex justify-content-center flex-column">
-            Ať už prodáváte svůj předchozí dům či byt, protože jste našli domov svých snů jinde, anebo svůj
-            bezpečný přístav teprve hledáte, jsme vám plně k dispozici.
-        <div class="d-flex justify-content-center mx-5 text-center text-luxus">
-        Luxusní realitní služby vám na míru</div>
-        </p>
+<section class="about-team-section d-flex justify-content-center flex-column m-5">
+    <a href="#team" class="d-flex justify-content-center m-4">
+        <img class="icon-arrow" src="/assets/Homepage/Elements/sipky.png">
+    </a>
+    <p class="about-team d-flex justify-content-center flex-column">
+        Ať už prodáváte svůj předchozí dům či byt, protože jste našli domov svých snů jinde, anebo svůj
+        bezpečný přístav teprve hledáte, jsme vám plně k dispozici.
+    <div class="d-flex justify-content-center mx-5 text-center text-luxus">
+        Luxusní realitní služby vám na míru
+    </div>
+    </p>
 
-    </section>
-    <section class="team d-flex m-lg-5 flex-column" id="team">
-        <div class="d-flex justify-content-center m-5">
-            <img src="/assets/Homepage/text/Team.png" class="team-img-h2">
+</section>
+<section class="team d-flex m-lg-5 flex-column" id="team">
+    <div class="d-flex justify-content-center m-5">
+        <img src="/assets/Homepage/text/Team.png" class="team-img-h2">
+    </div>
+    <div class="d-flex justify-content-center flex-wrap gap-5">
+        <div class="human jiri d-flex justify-content-center flex-column mx-3">
+            <div class="d-flex justify-content-center">
+                <div class="card-border position-relative d-inline-block">
+                    <div class="card-image card-image-1"></div>
+                    <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
+                        <div class="d-flex justify-content-center align-items-end h-100">
+                            <button class="card-border-btn mb-5 border">
+                                <a href="team.html#human-jiri" class="link-none">PŘEČÍST VÍCE</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-2 ">
+                <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Jiri%20Kurka.png">
+            </div>
+            <p class="desc">jednatel</p>
         </div>
-        <div class="d-flex justify-content-center flex-wrap gap-5">
-            <div class="human d-flex justify-content-center flex-column mx-3">
-                <div class="d-flex justify-content-center">
-                    <div class="card-border position-relative d-inline-block">
-                        <div class="card-image card-image-1"></div>
-                        <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
-                            <div class="d-flex justify-content-center align-items-end h-100">
-                                <button class="card-border-btn mb-5 border">
-                                    <a href="team.html#human-jiri" class="link-none">PŘEČÍST VÍCE</a>
-                                </button>
-                            </div>
+        <div class="human sergej d-flex justify-content-center flex-column mx-3">
+            <div class="d-flex justify-content-center">
+                <div class="card-border position-relative d-inline-block">
+                    <div class="card-image card-image-3"></div>
+                    <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
+                        <div class="d-flex justify-content-center align-items-end h-100">
+                            <button class="card-border-btn mb-5 border">
+                                <a href="team.html#human-sergej" class="link-none">PŘEČÍST VÍCE</a>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center mb-2 ">
-                    <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Jiri%20Kurka.png">
-                </div>
-                <p class="desc">jednatel</p>
             </div>
-            <div class="human d-flex justify-content-center flex-column mx-3">
-                <div class="d-flex justify-content-center">
-                    <div class="card-border position-relative d-inline-block">
-                        <div class="card-image card-image-2"></div>
-                        <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
-                            <div class="d-flex justify-content-center align-items-end h-100">
-                                <button class="card-border-btn mb-5 border">
-                                    <a href="team.html#human-dominika" class="link-none">PŘEČÍST VÍCE</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center mb-2 ">
-                    <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Dominka%20Devoty.png">
-                </div>
-                <p class="desc">projektový manager</p>
+            <div class="d-flex justify-content-center mb-2 ">
+                <img class="img-team-text1-2 mt-3" src="/assets/Sergej%20Kristofovic.png">
             </div>
-            <div class="human d-flex justify-content-center flex-column mx-3">
-                <div class="d-flex justify-content-center">
-                    <div class="card-border position-relative d-inline-block">
-                        <div class="card-image card-image-4"></div>
-                        <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
-                            <div class="d-flex justify-content-center align-items-end h-100">
-                                <button class="card-border-btn mb-5 border">
-                                    <a href="team.html#human-vaclav" class="link-none">PŘEČÍST VÍCE</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center mb-2 ">
-                    <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Vaclav%20Ruzicka.png">
-                </div>
-                <p class="desc">právní servis</p>
-            </div>
-            <div class="human d-flex justify-content-center flex-column mx-3">
-                <div class="d-flex justify-content-center">
-                    <div class="card-border position-relative d-inline-block">
-                        <div class="card-image card-image-3"></div>
-                        <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
-                            <div class="d-flex justify-content-center align-items-end h-100">
-                                <button class="card-border-btn mb-5 border">
-                                    <a href="team.html#human-sergej" class="link-none">PŘEČÍST VÍCE</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center mb-2 ">
-                    <img class="img-team-text1-2 mt-3" src="/assets/Sergej%20Kristofovic.png">
-                </div>
-                <p class="desc">projektový management stavby</p>
-            </div>
+            <p class="desc">projektový management stavby</p>
         </div>
-    </section>
+        <div class="human dominika d-flex justify-content-center flex-column mx-3">
+            <div class="d-flex justify-content-center">
+                <div class="card-border position-relative d-inline-block">
+                    <div class="card-image card-image-2"></div>
+                    <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
+                        <div class="d-flex justify-content-center align-items-end h-100">
+                            <button class="card-border-btn mb-5 border">
+                                <a href="team.html#human-dominika" class="link-none">PŘEČÍST VÍCE</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-2 ">
+                <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Dominka%20Devoty.png">
+            </div>
+            <p class="desc">projektový manager</p>
+        </div>
+        <div class="human vaclav d-flex justify-content-center flex-column mx-3">
+            <div class="d-flex justify-content-center">
+                <div class="card-border position-relative d-inline-block">
+                    <div class="card-image card-image-4"></div>
+                    <div class="border-div position-absolute h-100 w-100" style="top: 12px; left: 12px;">
+                        <div class="d-flex justify-content-center align-items-end h-100">
+                            <button class="card-border-btn mb-5 border">
+                                <a href="team.html#human-vaclav" class="link-none">PŘEČÍST VÍCE</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-2 ">
+                <img class="img-team-text1-2 mt-3" src="/assets/Homepage/text/Vaclav%20Ruzicka.png">
+            </div>
+            <p class="desc">právní servis</p>
+        </div>
 
-    <section class="divize d-flex flex-column">
-        <div class="d-flex justify-content-center m-5">
-            <img class="img-naseDivize-h2" src="../../assets/Homepage/text/Nase%20divize.png">
-        </div>
-        <div class="d-flex gap-5 flex-column align-items-center">
-            <div class="d-lg-flex gap-5 divize-container">
-                <div class="mx-4">
-                    <img class="diviz-img1" src="../../assets/Homepage/Loga/Absolut%20Okna%20logo.png">
-                </div>
-                <div class="d-flex align-items-center">
-                    <img class="diviz-img2" src="/assets/Homepage/Loga/mantofly%20logo.png">
-                </div>
+    </div>
+</section>
+
+<section class="divize d-flex flex-column">
+    <div class="d-flex justify-content-center m-5">
+        <img class="img-naseDivize-h2" src="../../assets/Homepage/text/Nase%20divize.png">
+    </div>
+    <div class="d-flex gap-5 flex-column align-items-center">
+        <div class="d-lg-flex gap-5 divize-container">
+            <div class="mx-4">
+                <img class="diviz-img1" src="../../assets/Homepage/Loga/Absolut%20Okna%20logo.png">
             </div>
-            <div class="d-lg-flex divize-container gap-5">
-                <button class="btn-visit my-1">
+            <div class="d-flex align-items-center">
+                <img class="diviz-img2" src="/assets/Homepage/Loga/mantofly%20logo.png">
+            </div>
+        </div>
+        <div class="d-lg-flex divize-container gap-5">
+            <button class="btn-visit my-1">
+                <a target="_blank" href="https://absolut-okna.cz/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
+            </button>
+            <button class="btn-visit my-1">
+                <a target="_blank" href="https://mantofly.eu/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
+            </button>
+        </div>
+        <div class="d-lg-none">
+            <div class="d-flex flex-column w-100">
+                <div class="d-flex justify-content-center my-5">
+                    <img class="diviz-img1" src="/assets/Homepage/Loga/Absolut%20Okna%20logo.png">
+                </div>
+                <button class="btn-visit">
                     <a target="_blank" href="https://absolut-okna.cz/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
                 </button>
-                <button class="btn-visit my-1">
+            </div>
+            <div class="d-flex flex-column w-100">
+                <div class="d-flex justify-content-center my-5">
+                    <img class="diviz-img2" src="/assets/Homepage/Loga/mantofly%20logo.png">
+                </div>
+                <button class="btn-visit">
                     <a target="_blank" href="https://mantofly.eu/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
                 </button>
             </div>
-            <div class="d-lg-none">
-                <div class="d-flex flex-column w-100">
-                    <div class="d-flex justify-content-center my-5">
-                        <img class="diviz-img1" src="/assets/Homepage/Loga/Absolut%20Okna%20logo.png">
-                    </div>
-                    <button class="btn-visit">
-                        <a target="_blank" href="https://absolut-okna.cz/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
-                    </button>
-                </div>
-                <div class="d-flex flex-column w-100">
-                    <div class="d-flex justify-content-center my-5">
-                        <img class="diviz-img2" src="/assets/Homepage/Loga/mantofly%20logo.png">
-                    </div>
-                    <button class="btn-visit">
-                        <a target="_blank" href="https://mantofly.eu/" class="link-none">NAVŠTÍVIT STRÁNKU</a>
-                    </button>
-                </div>
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <div class="footer-image"></div>
-    <footer class="footer-main">
-        <h3 class="mb-3">Kontaktujte nás</h3>
-        <div class="d-flex gap-5">
-            <div class="div-mail">
-                <div>+420 777 092 574</div>
-                <a class="mail" href="mailto:info@absolut-estate.cz">info@absolut-estate.cz</a>
-            </div>
-            <div>
-                <a target="_blank"
-                    href="https://www.google.com/maps/place/Komo%C5%99ansk%C3%A1+326%2F63,+143+00+Praha+12-Mod%C5%99any/@49.9925705,14.4105784,17z/data=!3m1!4b1!4m6!3m5!1s0x470b912b51e53429:0xa0c55c7ba242423e!8m2!3d49.9925705!4d14.4105784!16s%2Fg%2F11bw3y581h">
-                    Komořanská 326/63,
-                    <span>Modřany, Praha 4, 143 00</span>
-                </a>
-            </div>
+<div class="footer-image wrapper-footer"></div>
+<footer class="footer-main">
+    <h3 class="mb-3">Kontaktujte nás</h3>
+    <div class="d-flex gap-5">
+        <div class="div-mail">
+            <div>+420 777 092 574</div>
+            <a class="mail" href="mailto:info@absolut-estate.cz">info@absolut-estate.cz</a>
         </div>
-        <div class="d-flex justify-content-start">
-            <!-- Section: Social media -->
-            <section class="my-5">
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1 rounded-5"
-                    href="https://instagram.com/absolutestate.cz?igshid=YmMyMTA2M2Y=" role="button" target="_blank">
-                    <i class="fab fa-instagram"></i></a>
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1 rounded-5"
-                    href="https://www.facebook.com/profile.php?id=100064038278252" role="button" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1 rounded-5"
-                    href="https://www.linkedin.com/company/absolutestate/" role="button" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-
-            </section>
+        <div>
+            <a target="_blank"
+               href="https://www.google.com/maps/place/Komo%C5%99ansk%C3%A1+326%2F63,+143+00+Praha+12-Mod%C5%99any/@49.9925705,14.4105784,17z/data=!3m1!4b1!4m6!3m5!1s0x470b912b51e53429:0xa0c55c7ba242423e!8m2!3d49.9925705!4d14.4105784!16s%2Fg%2F11bw3y581h">
+                Komořanská 326/63,
+                <span>Modřany, Praha 4, 143 00</span>
+            </a>
         </div>
-    </footer>
-    <div class="copyright m-5">&copy; 2022 Absolut Estate s.r.o</div>
+    </div>
+    <div class="d-flex justify-content-start">
+        <!-- Section: Social media -->
+        <section class="my-5">
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1 rounded-5"
+               href="https://instagram.com/absolutestate.cz?igshid=YmMyMTA2M2Y=" role="button" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1 rounded-5"
+               href="https://www.facebook.com/profile.php?id=100064038278252" role="button" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1 rounded-5"
+               href="https://www.linkedin.com/company/absolutestate/" role="button" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+
+        </section>
+    </div>
+</footer>
+<div class="copyright m-5">&copy; 2022 Absolut Estate s.r.o</div>
 
 </body>
 

@@ -31,13 +31,15 @@ a {
 .text-main {
   color: $text-color;
 }
-
-.header-image {
-  width: 100vw;
-  height: 100vh;
-  background: url("../assets/Homepage/images/iStock-1334685439.jpg") no-repeat center fixed;
-  background-size: cover;
+.fixed{
+  .header-image {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/Homepage/images/iStock-1334685439.jpg") no-repeat center;
+    background-size: cover;
+  }
 }
+
 
 .header-image-onas {
   width: 100vw;
@@ -217,8 +219,27 @@ a {
 .header-image-team {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/fotky/team foto.png") no-repeat center center fixed;
+  background: url("../assets/fotky/team foto.png") no-repeat center center;
   background-size: cover;
+}
+@supports (-webkit-touch-callout: none) {
+  .wrapper-team {
+    background: url('../assets/fotky/team foto.png') center top no-repeat scroll;
+    background-size: auto 100vh;
+  }
+  .wrapper-header {
+    background: url('../assets/Homepage/images/iStock-1334685439.jpg') center top no-repeat scroll;
+    background-size: auto 100vh;
+  }
+  .wrapper-footer {
+    background: url('../assets/Homepage/images/img 2.jpg') center top no-repeat scroll;
+    background-size: auto 100vh;
+  }
+  .wrapper-onas {
+    background: url('../assets/O nas/Img/img.jpg') right top no-repeat scroll;
+    background-size: auto 100vh;
+
+  }
 }
 .footer-main{
   margin: 40px;
