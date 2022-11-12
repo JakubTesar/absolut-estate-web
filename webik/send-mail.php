@@ -15,8 +15,8 @@ $mail->Password = '2583d0d056ade3';
 //Recipients
 $mail->setFrom('from@example.com', 'Mailer');
 
-$mail->addAddress('joe@example.net', 'joe');     //Add a recipient
-$mail->addReplyTo('info@example.com', 'Information');
+$mail->addAddress('info@absolut-estate.cz', 'Absolute estate');     //Add a recipient
+$mail->addReplyTo($_POST['email']);
 
 //Content
 $mail->isHTML(true);                                  //Set email format to HTML
