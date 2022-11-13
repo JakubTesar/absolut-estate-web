@@ -249,6 +249,10 @@ a {
   margin-right: 50px;
 }
 @media(max-width: 992px) {
+  .ok{
+    margin-left: 50px;
+    margin-top: -30px;
+  }
   .divize {
     margin-top: 100px;
     div {
@@ -274,6 +278,7 @@ a {
   }
   .header-image-team {
     object-fit: cover;
+    margin-top: 15px;
     //background: url("../assets/team foto mobile.png") no-repeat center center fixed;
     background-size: cover;
     background-position: center;

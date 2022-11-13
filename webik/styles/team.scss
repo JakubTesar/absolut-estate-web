@@ -115,6 +115,7 @@
 }
 
 @media(max-width: 992px) {
+
   .team-container {
     font-size: 2vh;
     .human-container {
@@ -141,7 +142,7 @@
         margin-top: 10px;
         width: 100%;
         .div-bot {
-          margin-bottom: 30px;
+          margin-bottom: 5px;
           a{
             .icon-team-arrow{
               height: 1.4vh;
@@ -155,4 +156,10 @@
 .img-team-text1-small{
   height: 4vh;
 }
+}
+
+@media(max-width: 320px) {
+  .info-human{
+    font-size: 13px;
+  }
 }
