@@ -53,6 +53,7 @@ a {
     width: 250px;
     height: 360px;
     background-size: cover;
+    background-position: center;
   }
 
   .card-image-1 {
@@ -191,6 +192,16 @@ a {
 .diviz-img2 {
   height: 60px;
   width: 250px;
+  margin-right: 20px;
+}
+.mmm{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.diviz-img3 {
+  height: 160px;
+  width: 160px;
+
 }
 
 .img-team-text1-2 {
@@ -267,7 +278,6 @@ a {
   }
   .card-border {
     .card-image {
-
     }
   }
   .img-team-text1-2 {
@@ -295,6 +305,11 @@ a {
     width: 60vw;
     height: 12vw;
   }
+  .diviz-img3 {
+    width: 35vw;
+    height: 20vh;
+    margin-bottom: 10px;
+  }
   .divize .btn-visit {
     margin-bottom: 100px;
     width: 80vw;
@@ -313,6 +328,11 @@ a {
 }
 
 @media(max-width: 576px) {
+  .diviz-img3 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
   .card-border {
     .card-image {
       height: 70vh;
