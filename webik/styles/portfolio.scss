@@ -11,12 +11,19 @@
   .port-container {
 
     .port-card-image {
-      width: 550px;
-      height: 250px;
+      width: 490px;
+      height: 320px;
     }
   }
 }
-
+.dum-p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dum-p-1{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
 @media(max-width: 992px) {
   .port-main-section {
     .port-container {

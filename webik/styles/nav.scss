@@ -13,7 +13,7 @@ $nav-color: #171717;
 }
 
 .nav-item {
-  margin: 50px;
+  margin: 25px;
 }
 
 .nav-item-button {
@@ -52,12 +52,14 @@ $nav-color: #171717;
 .img-h1-container{
   height: 50%;
 }
-
+.img-h1-text3{
+  height: 15vh;
+}
 
 
 @media(max-width: 992px) {
-  .link {
-    //font-size: 20px;
+  .img-h1-text3{
+    height: 8vh;
   }
   .img-h1-container{
     height: 100%;
@@ -97,7 +99,7 @@ $nav-color: #171717;
     height: 100%;
   }
   .nav-item{
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .nav-item-btn{
     margin: 20px 20px 50px 20px;

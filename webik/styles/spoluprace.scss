@@ -1,0 +1,37 @@
+@import "variables";
+.spoluprace-container{
+  margin: 20px 50px 300px;
+}
+.spoluprace-item{
+  .spoluprace-item-img{
+    height: 100px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media(max-width: 992px) {
+  .spoluprace-container{
+    margin: 20px 0 90px;
+  }
+  .spoluprace-item{
+    .spoluprace-item-img{
+      height: 60px;
+      width: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.i1{background-image: url("../assets/Spoluprace/logos/a design.png");}
+.i2{background-image: url("../assets/Spoluprace/logos/elite.png");}
+.i3{background-image: url("../assets/Spoluprace/logos/Asset 2.png");}
+.i4{background-image: url("../assets/Spoluprace/logos/Asset 3.png");}
+.i5{background-image: url("../assets/Spoluprace/logos/Asset 4.png");}
+.i6{background-image: url("../assets/Spoluprace/logos/Asset 6.png");}
+.i7{background-image: url("../assets/Spoluprace/logos/mantofly logo.png");}
+.i8{background-image: url("../assets/Spoluprace/logos/Asset 5.png");}
+.i9{background-image: url("../assets/Spoluprace/logos/Asset 7.png");}
+.i10{background-image: url("../assets/Spoluprace/logos/erkado.png");}
+.i11{background-image: url("../assets/Spoluprace/logos/rendl.png");}
+.i12{background-image: url("../assets/Spoluprace/logos/wisnowski.png");}

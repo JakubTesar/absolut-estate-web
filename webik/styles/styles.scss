@@ -7,6 +7,7 @@
 @import "team";
 @import "modal";
 @import "footer";
+@import "spoluprace";
 
 
 *{
@@ -42,6 +43,12 @@ a {
 
 
 .header-image-onas {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/O nas/Img/img.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.header-image-onas-2 {
   width: 100vw;
   height: 100vh;
   background: url("../assets/O nas/Img/img.jpg") no-repeat center center fixed;
