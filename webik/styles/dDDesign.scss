@@ -1,0 +1,39 @@
+.card-image-devoty{
+  background-image: url("../assets/Podklady DD Design/images/dominika.png");
+  height: 500px;
+}
+.projekty-img{
+
+}
+.logo-dDDesign{
+
+}
+.text-justify{
+  text-align: justify;
+}
+
+@media(max-width: 992px) {
+  .text-dd{
+    font-size: 10px;
+
+  }
+  .card-image-devoty{
+
+  }
+  .projekty-img{
+    height: 3vh;
+  }
+  .logo-dDDesign{
+    width: 48vw;
+  }
+}
+@media (max-width: 576px){
+  .card-border .card-image-2 {
+    width: 80vw;
+    height: 120vw;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("../assets/Podklady DD Design/images/dominika.png");
+
+  }
+}
