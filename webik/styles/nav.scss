@@ -1,6 +1,8 @@
 @import "variables";
 $nav-color: #171717;
-
+.nav-m{
+  margin: 40px auto;
+}
 .link {
   color: $text-color;
   text-decoration: none;
@@ -55,7 +57,9 @@ $nav-color: #171717;
 .img-h1-text3{
   height: 15vh;
 }
-
+.md{
+  margin-top: 0;
+}
 
 @media(max-width: 992px) {
   .img-h1-text3{

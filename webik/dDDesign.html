@@ -65,18 +65,18 @@
 <div class="w-100 modal modal-nav-main fade" id="nav-collapse" data-bs-backdrop="static" data-bs-keyboard="false"
      tabindex="-1"
      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog m-0">
-        <div class="modal-cont bg-transparent flex-column d-flex">
+    <div class="modal-dialog md w-100 h-100">
+        <div class="modal-cont w-100 h-100 justify-content-start bg-transparent flex-column d-flex">
             <button class="navbar-toggler text-main nav-item-btn nav-item-button navbar-dark border-0 justify-content-end"
                     type="button"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                     data-bs-toggle="modal"
                     data-bs-target="#nav-collapse">
                 <div class="w-100 d-flex justify-content-end">
-                    <img class="close-img" src="assets/X.png">
+                    <img class="close-img m-3" src="assets/X.png">
                 </div>
             </button>
-            <ul class="navbar-nav m-auto ">
+            <ul class="navbar-nav nav-m ">
                 <li class="nav-item d-flex justify-content-center">
                     <a class="link" href="onas.html">O NÁS</a>
                 </li>
@@ -198,26 +198,32 @@
 </div>
 
 <section class="about-team-section about-us-section d-flex justify-content-center flex-column mb-2">
-    <a href="#popis" class="d-flex justify-content-center m-5">
-        <img class="icon-arrow mt-3" src="assets/Homepage/Elements/sipky.png">
+    <a href="#popis" class="d-flex justify-content-center m-4">
+        <img class="icon-arrow mt-4" src="assets/Homepage/Elements/sipky.png">
     </a>
+    <div class="d-lg-flex justify-content-center">
+        <div class="main-dd d-lg-flex justify-content-center gap-lg-5">
+            <div class="d-lg-flex justify-content-center flex-column-reverse gap-lg-5">
+                <div class="d-flex justify-content-center">
+                    <div id="popis" class="d-flex justify-content-center m-4 flex-column text-dd text-dd-2">
+                        <p>DFNJKBVNK DEJNFE VHZGHBWESHZ VRFIUE</p>
+                        <p class="t">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aliquam assumenda cumque eius exercitationem fugiat incidunt nisi,
+                            nostrum obcaecati, odio porro quasi, sapiente tempore unde ut vitae
+                            voluptas voluptate. Ab, fugiat!</p>
+                    </div>
+                </div>
 
-    <div>
-        <div id="popis" class="d-flex justify-content-center m-3 flex-column text-dd">
-            <p class="text-center">DFNJKBVNK DEJNFE VHZGHBWESHZ VRFIUE</p>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam assumenda cumque eius exercitationem fugiat incidunt nisi,
-                nostrum obcaecati, odio porro quasi, sapiente tempore unde ut vitae
-                voluptas voluptate. Ab, fugiat!</p>
-        </div>
-        <div class="d-flex justify-content-center">
-            <img class="logo-dDDesign" src="assets/Podklady%20DD%20Design/logos/DD%20DESIGN%20logo.png">
-        </div>
-        <div class="mt-5">
-            <div class="d-flex justify-content-center">
-                <div class="card-border position-relative d-inline-block">
-                    <div class="card-image-2 card-image-devoty"></div>
-                    <div class="border position-absolute h-100 w-100" style="top: 12px; right: 12px;">
+                <div class="d-flex justify-content-center">
+                    <img class="logo-dDDesign" src="assets/Podklady%20DD%20Design/logos/DD%20DESIGN%20logo.png">
+                </div>
+            </div>
+            <div class=" m-5">
+                <div class="d-flex justify-content-center">
+                    <div class="card-border position-relative d-inline-block">
+                        <div class="card-image-2 card-image-devoty"></div>
+                        <div class="border position-absolute h-100 w-100" style="top: 12px; right: 12px;">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,14 +231,46 @@
     </div>
 </section>
 
-<section>
+<section class="projects-section">
     <div class="d-flex justify-content-center">
-        <img class="projekty-img mt-5 mb-3" src="assets/Podklady%20DD%20Design/Text/projekty.png">
+        <img class="projekty-img mt-5 mb-5" src="assets/Podklady%20DD%20Design/Text/projekty.png">
+    </div>
+    <div id="carouselExampleControls" class="carousel slide d-flex justify-content-center d-lg-none m-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/Podklady%20DD%20Design/images/DD%20design%204.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Podklady%20DD%20Design/images/DD%20design%203.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Podklady%20DD%20Design/images/DD%20design%202.png" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="assets/Podklady%20DD%20Design/images/DD%20design%201.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev ms-2" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon  rounded-circle arrow-icon-dd" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next me-2" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon rounded-circle arrow-icon-dd" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="d-lg-flex d-none justify-content-center mb-5 gap-3">
+        <img class="img-dd-project " src="assets/Podklady%20DD%20Design/images/DD%20design%201.png"
+             alt="First slide">
+        <img class="img-dd-project" src="assets/Podklady%20DD%20Design/images/DD%20design%202.png"
+             alt="Second slide">
+        <img class="img-dd-project" src="assets/Podklady%20DD%20Design/images/DD%20design%204.png"
+             alt="Third slide">
+        <img class="img-dd-project" src="assets/Podklady%20DD%20Design/images/DD%20design%203.png"
+             alt="Fourth slide">
     </div>
 </section>
-
-
-
 
 <footer class="footer-main">
     <h3 class="mb-3">Kontaktujte nás</h3>
