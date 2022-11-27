@@ -1,8 +1,4 @@
 @import "variables";
-.card-image-devoty{
-  background-image: url("../assets/Podklady DD Design/images/dominika.png");
-  height: 500px;
-}
 .projects-section{
   margin-bottom: 200px;
 }
@@ -22,11 +18,10 @@
   width: 300px;
   text-align: justify;
 }
-.card-border .card-image-2 {
-  width: 400px;
-  height: 636px;
+.card-image-devoty {
+  width: 360px;
+  height: 480px;
   background-size: cover;
-  z-index: -1;
   background-image: url("../assets/Podklady DD Design/images/dominika.png");
 }
 .img-dd-project{
@@ -54,31 +49,24 @@
   .t{
     text-align: justify;
   }
-  .card-image-devoty{
-
-  }
   .projekty-img{
     height: 3vh;
   }
   .logo-dDDesign{
     width: 48vw;
   }
-  .card-border .card-image-2 {
-    width: 80vw;
+   .card-image-devoty {
+    width: 90vw;
     height: 120vw;
     background-size: cover;
-    z-index: -1;
     background-image: url("../assets/Podklady DD Design/images/dominika.png");
-
   }
 }
 @media (max-width: 576px){
-  .card-border .card-image-2 {
-    width: 80vw;
+   .card-image-devoty {
+    width: 90vw;
     height: 120vw;
     background-size: cover;
-    z-index: -1;
     background-image: url("../assets/Podklady DD Design/images/dominika.png");
-
   }
 }
