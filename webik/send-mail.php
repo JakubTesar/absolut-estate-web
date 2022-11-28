@@ -6,16 +6,17 @@ require 'vendor/autoload.php';
 
 $mail = new PHPMailer();
 $mail->isSMTP();
-$mail->Host = 'smtp.mailtrap.io';
+$mail->Host = 'email.active24.com';
 $mail->SMTPAuth = true;
-$mail->Port = 2525;
-$mail->Username = 'cf05dc11f2b63e';
-$mail->Password = '2583d0d056ade3';
+$mail->Port = 465;
+$mail->Username = 'noreply@absolut-estate.cz';
+$mail->Password = 'z6G3DcPaMYGE';
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 
 //Recipients
-$mail->setFrom('from@example.com', 'Mailer');
+$mail->setFrom('noreply@absolut-estate.cz', 'Někdo Vám napsal na webu!');
 
-$mail->addAddress('info@absolut-estate.cz', 'Absolute estate');     //Add a recipient
+$mail->addAddress('tessi@post.cz', 'Absolute estate');     //Add a recipient
 $mail->addReplyTo($_POST['email']);
 
 //Content
