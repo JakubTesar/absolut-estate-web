@@ -200,13 +200,11 @@ a {
   margin-right: 20px;
 }
 .mmm{
-  margin-left: 40px;
+  margin-left: 30px;
   margin-right: 40px;
 }
 .diviz-img3 {
-  height: 160px;
-  width: 160px;
-
+  width: 180px;
 }
 
 .img-team-text1-2 {
@@ -311,7 +309,7 @@ a {
     height: 12vw;
   }
   .diviz-img3 {
-    width: 35vw;
+    width: 200px;
     height: 20vh;
     margin-bottom: 10px;
   }
@@ -334,8 +332,7 @@ a {
 
 @media(max-width: 576px) {
   .diviz-img3 {
-    width: 200px;
-    height: 200px;
+    width: 180px;
     margin-bottom: 10px;
   }
   .card-border {
