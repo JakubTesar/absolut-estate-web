@@ -8,6 +8,9 @@
   background-size: cover;
 }
 
+.copyR{
+  margin: 40px;
+}
 footer {
   border-bottom: $secondary-color solid 2px;
 
@@ -32,5 +35,9 @@ footer {
 @media(max-width: 992px) {
   .copyright{
     font-size: 10px;
+  }
+
+  .copyR{
+    margin: 15px;
   }
 }
