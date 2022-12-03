@@ -30,7 +30,8 @@ $nav-color: #171717;
 }
 
 .img-h1-text1{
-  height: 15vh;
+  height: 25vh;
+  margin-top: 150px;
 }
 .img-h1-text1-container{
   height: 50%;
@@ -60,17 +61,23 @@ $nav-color: #171717;
 .md{
   margin-top: 0;
 }
-
+.h1-onas{
+  height: 15vh;
+}
 @media(max-width: 992px) {
+  .h1-onas{
+    height: 8vh;
+  }
   .img-h1-text3{
     height: 8vh;
   }
   .img-h1-container{
     height: 100%;
   }
-  .img-h1-text1{
-    height: 8vh;
-  }
+.img-h1-text1{
+  height: 15vh;
+  margin-top: 0px;
+}
   .nav-bar{
     display: flex;
     justify-content: center;

@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d9f1f9-1852-4fb8-83dd-93a1d1bc4ed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/TEAM mobil.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Portfolio2/img/Myšlin/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Portfolio2/img/myslin/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Portfolio2/img/Myšlin/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Portfolio2/img/myslin/2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dDDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/dDDesign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/build.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onas.html" beforeDir="false" afterPath="$PROJECT_DIR$/onas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spoluprace.html" beforeDir="false" afterPath="$PROJECT_DIR$/spoluprace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/dDDesign.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/dDDesign.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +81,8 @@
       <recent name="C:\Users\Tessi\Documents\GitHub\Absolut-estate-webik\webik\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tessi\OneDrive\Plocha\UgaBugaRepo\ugabugaweb\webik\assets" />
       <recent name="C:\Users\Tessi\Documents\GitHub\ugabugaweb\webik\assets" />
+      <recent name="C:\Users\tessi\OneDrive\Plocha\UgaBugaRepo\ugabugaweb\webik\assets" />
       <recent name="C:\Users\tessi\Downloads\webik (2)\webik" />
       <recent name="C:\Users\Tessi\Documents\GitHub\Absolut-estate-webik\webik\assets" />
     </key>
@@ -123,6 +123,7 @@
       <workItem from="1669884833523" duration="17000" />
       <workItem from="1669887911205" duration="1075000" />
       <workItem from="1669971046756" duration="970000" />
+      <workItem from="1670053879009" duration="8139000" />
     </task>
     <servers />
   </component>
