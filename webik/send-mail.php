@@ -18,7 +18,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 //Recipients
 $mail->setFrom('noreply@absolut-estate.cz', 'Nekdo Vam napsal na webu!');
 
-$mail->addAddress('info@absolut-estace.cz', 'Absolut estate');     //Add a recipient
+$mail->addAddress('info@absolut-estate.cz', 'Absolut estate');     //Add a recipient
 $mail->addReplyTo($_POST['email']);
 
 //Content

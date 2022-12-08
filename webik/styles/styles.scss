@@ -267,7 +267,7 @@ a {
     height: 100vh;*/
 @supports (-webkit-touch-callout: none) {
   .wrapper-team {
-    background: url('../assets/fotky/team foto.png') center top no-repeat scroll;
+    background: url('../assets/TEAM mobil2.png') center top no-repeat scroll;
     background-size: auto 100vh;
   }
   .wrapper-header {
@@ -283,6 +283,9 @@ a {
     background-size: auto 100vh;
 
   }
+}
+.hidden {
+  display: none;
 }
 
 .footer-main {
@@ -325,9 +328,8 @@ a {
   .header-image-team {
     object-fit: cover;
     margin-top: 15px;
-    //background: url("../assets/team foto mobile.png") no-repeat center center fixed;
+    background: url("../assets/TEAM mobil2.png") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
   }
   .img-naseDivize-h2 {
     width: 60vw;
@@ -355,7 +357,6 @@ a {
     width: 80vw;
     height: 35px;
     font-family: "Trenda", Courier, monospace;
-
   }
 
   .footer-main {
