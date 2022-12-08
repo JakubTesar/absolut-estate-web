@@ -14,16 +14,3 @@ window.onscroll = function (e) {
     }
     prevScrollpos = currentScrollPos;
 }
-
-function change() {
-    let navbar = document.getElementById("scroll");
-    if (window.scrollTop > 20) {
-//show
-        navbar.classList.add('hidden');
-    } else {
-//hide
-        navbar.classList.remove('hidden');
-    }
-}
-
-window.onload = window.onscroll = change;
