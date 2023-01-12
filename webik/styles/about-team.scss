@@ -1,6 +1,7 @@
 @import "variables";
 .about-team {
-  text-align: justify;
+  text-align:justify;
+  word-break: break-all;
   color: $secondary-color;
   margin: 50px auto 10px;
   width: 50%;
@@ -14,7 +15,8 @@
 }
 @media(max-width: 992px) {
   .about-team {
-    text-align: justify;
+    text-align:justify;
+    word-break: break-all;
     color: $secondary-color;
     width: 80%;
     margin: 40px auto 20px;
