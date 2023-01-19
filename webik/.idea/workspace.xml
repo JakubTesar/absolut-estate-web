@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9d9f1f9-1852-4fb8-83dd-93a1d1bc4ed6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/build.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/about-team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/about-team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dDDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/dDDesign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +70,8 @@
       <recent name="C:\Users\Tessi\Documents\GitHub\Absolut-estate-webik\webik\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tessi\Documents\GitHub\ugabugaweb\webik\assets" />
       <recent name="C:\Users\tessi\OneDrive\Plocha\UgaBugaRepo\ugabugaweb\webik\assets" />
+      <recent name="C:\Users\Tessi\Documents\GitHub\ugabugaweb\webik\assets" />
       <recent name="C:\Users\tessi\Downloads\webik (2)\webik" />
       <recent name="C:\Users\Tessi\Documents\GitHub\Absolut-estate-webik\webik\assets" />
     </key>
@@ -123,7 +122,8 @@
       <workItem from="1670497782287" duration="3500000" />
       <workItem from="1670530304052" duration="1606000" />
       <workItem from="1672069779533" duration="18000" />
-      <workItem from="1673550725810" duration="310000" />
+      <workItem from="1673550725810" duration="1423000" />
+      <workItem from="1674134686155" duration="1135000" />
     </task>
     <servers />
   </component>
